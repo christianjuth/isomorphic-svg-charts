@@ -60,8 +60,9 @@ jobs:
         run: yarn install --immutable
 
       - name: Build with Next.js
-        working-directory: ./apps/docs
-        run: BASE_PATH=/isomorphic-svg-charts yarn next build
+        env:
+          BASE_PATH: /isomorphic-svg-charts
+        run: yarn turbo build --filter=docs
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

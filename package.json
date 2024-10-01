@@ -10,6 +10,7 @@
   "packageManager": "yarn@4.5.0",
   "scripts": {
     "test": "turbo test",
-    "dev": "turbo dev"
+    "dev": "turbo dev",
+    "build": "turbo build"
   }
 }

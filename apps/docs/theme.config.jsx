@@ -28,7 +28,7 @@ export default {
   faviconGlyph: "🚀",
   useNextSeoProps() {
     return {
-      titleTemplate: '%s - Better React Server Actions',
+      titleTemplate: '%s - Isomorphic SVG Charts',
     }
   }
 }
