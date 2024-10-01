@@ -11,6 +11,12 @@ This makes it perfect for headless systems, APIs, and server-side applications w
 
 ---
 
+### Documentation
+
+See [christianjuth.github.io/isomorphic-svg-charts](https://christianjuth.github.io/isomorphic-svg-charts/).
+
+---
+
 ### Why Use This Library?
 
 - **Zero dependencies**: Keeps your bundle size small and performance fast.

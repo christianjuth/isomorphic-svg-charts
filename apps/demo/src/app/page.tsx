@@ -4,7 +4,7 @@ export default function Home() {
       <main className="flex flex-col gap-4 row-start-2 items-center sm:items-start">
         <h1 className="font-bold text-3xl">Examples</h1>
         <p>
-          Demo app for `better-react-server-actions`.
+          Demo app for `isomorphic-svg-charts`.
         </p>
 
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">

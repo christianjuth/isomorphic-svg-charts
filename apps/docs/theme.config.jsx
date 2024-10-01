@@ -7,9 +7,9 @@ export default {
     <FaChartArea style={{ color: '#black', fontSize: '1.5rem' }} />
     <b style={{ marginLeft: '0.5ch' }}>Isomorphic SVG Charts</b>
   </>,
-  docsRepositoryBase: 'https://github.com/christianjuth/better-react-server-actions/tree/main/apps/docs',
+  docsRepositoryBase: 'https://github.com/christianjuth/isomorphic-svg-charts/tree/main/apps/docs',
   project: {
-    link: 'https://www.npmjs.com/package/better-react-server-actions',
+    link: 'https://www.npmjs.com/package/isomorphic-svg-charts',
     icon: (
       <div style={{ position: 'relative', height: '2rem' }}>
         <div style={{ position: 'absolute', inset: 5, background: 'white' }} />
