@@ -1,0 +1,14 @@
+{
+  "name": "express-js-demo",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon --watch ../../packages/isomorphic-svg-charts/dist --watch ./index.js --ignore node_modules"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "express": "^4.21.0",
+    "isomorphic-svg-charts": "workspace:^",
+    "nodemon": "^3.1.7"
+  }
+}

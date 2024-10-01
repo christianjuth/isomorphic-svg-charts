@@ -1,0 +1,7 @@
+{
+  "index": "Getting Started",
+  "line-chart": "LineChart",
+  "area-chart": "AreaChart",
+  "bar-chart": "BarChart",
+  "composed-chart": "ComposedChart"
+}

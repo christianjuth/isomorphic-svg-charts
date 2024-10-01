@@ -1,0 +1,6 @@
+{
+  "simple-area-chart": "SimpleAreaChart",
+  "stacked-area-chart": "StackedAreaChart",
+  "tiny-area-chart": "TinyAreaChart",
+  "percent-area-chart": "PercentAreaChart"
+}
