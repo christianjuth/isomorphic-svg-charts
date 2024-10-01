@@ -5076,11 +5076,6 @@ __metadata:
     nodemon: "npm:^3.1.7"
     typescript: "npm:^5.6.2"
     vitest: "npm:2.1.1"
-    zod: "npm:^3.23.8"
-    zod-form-data: "npm:^2.0.2"
-  peerDependencies:
-    zod: ">= 3.11.0"
-    zod-form-data: ">= 2.0.0"
   languageName: unknown
   linkType: soft
 
