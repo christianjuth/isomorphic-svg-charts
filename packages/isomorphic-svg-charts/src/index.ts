@@ -378,14 +378,14 @@ export class CartesianChart<
 
   constructor({
     data,
-    apsectRatio = 1,
+    aspectRatio = 1,
     padding = 3,
     backgroundColor,
     textColor,
     stackOffset,
   }: {
     data: Record<K, string | number>[] & D[];
-    apsectRatio?: number;
+    aspectRatio?: number;
     padding?: number;
     backgroundColor?: string;
     textColor?: string;
@@ -393,7 +393,7 @@ export class CartesianChart<
   }) {
     this.data = data;
     this.height = 100;
-    this.width = 100 * apsectRatio;
+    this.width = 100 * aspectRatio;
     this.padding = padding;
     this.backgroundColor = backgroundColor;
     this.textColor = textColor ?? this.textColor;

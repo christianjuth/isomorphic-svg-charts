@@ -50,7 +50,7 @@ const toPercent = (decimal: number, fixed = 0) => `${(decimal * 100).toFixed(fix
 
 const chart = new CartesianChart({
   data,
-  apsectRatio: 2,
+  aspectRatio: 2,
   padding: 5,
   stackOffset: "expand",
 })

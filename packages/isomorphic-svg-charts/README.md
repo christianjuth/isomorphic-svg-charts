@@ -45,7 +45,7 @@ const data = [
 
 const chart = new SVGBarChart({ 
   data,
-  apsectRatio: 2,
+  aspectRatio: 2,
   padding: 5
 })
   .xAxis({

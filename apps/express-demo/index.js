@@ -112,7 +112,7 @@ app.get('/area-chart.svg', (req, res) => {
   const chart = new CartesianChart({
     data,
     stackOffset: 'expand',
-    apsectRatio: 2,
+    aspectRatio: 2,
     padding: 7,
     ...(darkMode && {
       backgroundColor: 'black',
@@ -156,7 +156,7 @@ app.get('/line-chart.svg', (req, res) => {
 
   const chart = new CartesianChart({
     data,
-    apsectRatio: 2,
+    aspectRatio: 2,
     padding: 7,
     ...(darkMode && {
       backgroundColor: 'black',
@@ -194,7 +194,7 @@ app.get('/bar-chart.svg', (req, res) => {
 
   const chart = new CartesianChart({
     data,
-    apsectRatio: 2,
+    aspectRatio: 2,
     padding: 7,
     ...(darkMode && {
       backgroundColor: 'black',
@@ -270,7 +270,7 @@ app.get('/composed-chart.svg', (req, res) => {
 
   const chart = new CartesianChart({
     data,
-    apsectRatio: 2,
+    aspectRatio: 2,
     padding: 7,
     ...(darkMode && {
       backgroundColor: 'black',

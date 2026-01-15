@@ -42,7 +42,7 @@ const data = [
 
 const chart = new CartesianChart({
   data,
-  apsectRatio: 2,
+  aspectRatio: 2,
   padding: 5,
 })
   .cartesianGrid()
